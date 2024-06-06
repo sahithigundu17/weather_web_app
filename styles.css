@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: #c5efc4; */
+    margin: 0;
+    background-image: url("https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container {
+    background: rgb(208, 159, 229,0.4);
+    padding: 20px;
+    border-radius: 50px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    text-align: center;
+    border: 2px solid #333;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 15px;
+    width: 90%;
+    border: 2px solid #131111;
+    border-radius: 30px;
+    margin-right: 10px;
+    
+    font-size: 18px; /* Increased the font size of the input */
+}
+
+button {
+    padding: 15px 30px;
+    border: 2px solid black;
+    background: #2c0f8d;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px; /* Increased the font size of the button */
+}
+
+button:hover {
+    background: #0e0e0f;
+}
+
+.weather-result {
+    margin-top: 20px;
+}
+
+.weather-result p {
+    margin: 10px 0;
+}
